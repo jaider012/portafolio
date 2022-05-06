@@ -14,7 +14,7 @@ function App() {
         <div className="section-projects" id="projects">
           <ProjectPreview
             name={"REDESIGN"}
-            description={"Fakegoogle a copy of google"}
+            description={"Fakegoogle Google Search & Results"}
             category={"Front-End"}
             icons={["react", "redux", "tailwind", "node"]}
             link={"https://fake-google-delta.vercel.app/search"}
@@ -22,15 +22,27 @@ function App() {
           />
           <ProjectPreview
             name={"redesign"}
-            description={"Google Search & Results page with Google Cloud"}
-            category={"Front-end"}
+            description={"Videogame app"}
+            category={"Full stack"}
             icons={["react", "redux", "node", "db", "postgress"]}
-            link={"https://killer-7cff7.web.app/"}
+            link={""}
             imgs={["/images/inicio.png", "/images/home.png"]}
+          />
+          <ProjectPreview
+            name={"Make"}
+            description={"Kanban UI"}
+            category={"Front-end"}
+            icons={["react", "tailwind", "native"]}
+            link={"https://to-learn-draggable.vercel.app/"}
+            imgs={["images/kanban.gif"]}
           />
         </div>
         <div className="">
-          <a className="button-moreP1" href="https://github.com/jaider012">
+          <a
+            className="button-moreP1"
+            href="https://github.com/jaider012"
+            target="_blank"
+          >
             Mas proyectos 👋
           </a>
         </div>
@@ -46,10 +58,6 @@ function App() {
           </div>
           <div className="software__title">Tecnologias que uso</div>
           <div className="softwares__icons">
-            <div className="software__icon">
-              <img src="/icons/figma.svg" alt="react" />
-              <p>figma</p>
-            </div>
             <div className="software__icon">
               <img src="/icons/native.svg" alt="react" />
               <p>react</p>
@@ -71,8 +79,8 @@ function App() {
               <p>firebase</p>
             </div>
             <div className="software__icon">
-              <img src="/icons/graphql.svg" alt="react" />
-              <p>graphql</p>
+              <img src="/icons/postgress.svg" alt="react" />
+              <p>Postgresql</p>
             </div>
             <div className="software__icon">
               <img src="/icons/tailwind.svg" alt="react" />

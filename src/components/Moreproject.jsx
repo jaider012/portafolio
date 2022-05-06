@@ -10,9 +10,7 @@ export default function Moreproject() {
       <div className="cards width-md">
         <div className="cards-header">
           <div className="cards-header__blob">
-            <div className="blob-1 ">
-              
-            </div>
+            <div className="blob-1 "></div>
           </div>
           <div className="cards-header__info">
             <motion.h3
@@ -36,12 +34,12 @@ export default function Moreproject() {
               }}
             >
               <p>
-                He tenido la oportunidad de trabajar en proyectos muy variados,
-                desde motion graphics hasta campañas de retail marketing.
+                He tenido la oportunidad de trabajar en varios proyectos, desde
+                un E-commerce hasta una aplicacion del clima.
               </p>
               <p>
-                Ádemas tengo una gran pásion por el desarrollo de software y la
-                web3, NFT, cryptos, Smart Contracts.
+                Ádemas tengo una gran pásion por el desarrollo de software y las
+                aplicacion moviles,web3, Smart Contracts.
               </p>
               <a href="#footer">¿Cuando empezamos?</a>
             </motion.div>
@@ -72,12 +70,12 @@ export default function Moreproject() {
         </div>
         <div className="slide" data-id="3">
           <Projects
-            icon={"/icons/web3.svg"}
-            title={"Crypto - Web 3"}
+            icon={"/icons/react.svg"}
+            title={"React Native"}
             description={
-              "Interactuar con la red de ethereum, crear smart contracts, aplicaciones descentralizadas, etc."
+              "Puedo crear una aplicación para iOS y Android, con una interfaz de usuario simple y funcional."
             }
-            tools={["moralis", "dapp", "ethereum", "solidity"]}
+            tools={["Typescript", "firebase", "react-native"]}
           />
         </div>
       </motion.div>

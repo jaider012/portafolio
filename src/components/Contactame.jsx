@@ -2,7 +2,7 @@ import { motion, useViewportScroll } from "framer-motion";
 import { useState, useEffect } from "react";
 import "./contactame.css";
 
-export default function Contactame() {
+export default function SContactame() {
   // SCROLL //
   const { scrollYProgress } = useViewportScroll();
   const [hookedYPostion, setHookedYPosition] = useState(0);
