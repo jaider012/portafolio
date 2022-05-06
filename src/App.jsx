@@ -1,6 +1,6 @@
 import "./App.css";
 import AboutMe from "./components/AboutMe";
-import Contactame from "./components/contactame";
+import Contactame from "./components/Contactame";
 import Moreproject from "./components/Moreproject";
 import ProjectPreview from "./components/ProjectPreview";
 
