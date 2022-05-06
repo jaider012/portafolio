@@ -1,0 +1,72 @@
+.contactme-container {
+  display: flex;
+  margin-top: -6rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  overflow-x: initial;
+  background: var(--back);
+  width: 100%;
+}
+
+.contactme-container h3 {
+  position: relative;
+  font-size: 100px;
+  font-weight: 600;
+  line-height: 90px;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+}
+
+.contactme-container p {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 17px;
+}
+
+.contact-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.contact-buttons a {
+  padding: 0.6rem 3rem;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.contact-buttons a:first-child {
+  background-color: var(--first-color);
+  color: var(--white);
+  transition: 0.3s;
+}
+.contact-buttons a:first-child:hover {
+  box-shadow: rgb(194, 94, 1) 0px 10px 20px -10px;
+}
+
+.contact-buttons a:last-child {
+  border: 1px solid var(--snd-color);
+  color: var(--snd-color);
+  transition: 0.3s;
+}
+.contact-buttons a:last-child:hover {
+  color: var(--white);
+  background-color: var(--snd-color);
+  box-shadow: rgba(255, 118, 5, 0.761) 0px 15px 30px -10px;
+}
+
+@media screen and (min-width: 768px) {
+  .contactme-container {
+    margin-top: -3rem;
+  }
+  .contactme-container h3 {
+    position: relative;
+    font-size: 100px;
+    font-weight: 600;
+    line-height: 90px;
+    margin-bottom: 2rem;
+  }
+}
