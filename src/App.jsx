@@ -12,6 +12,14 @@ function App() {
         <AboutMe />
         <img src="/icons/divider1.svg" alt="divider" />
         <div className="section-projects" id="projects">
+        <ProjectPreview
+            name={"Make"}
+            description={"Emoji maker"}
+            category={"Front-end"}
+            icons={["react", "tailwind","redux" ]}
+            link={"https://emoji-app-pi.vercel.app/"}
+            imgs={["images/emojifull.PNG"]}
+          />
           <ProjectPreview
             name={"REDESIGN"}
             description={"Fakegoogle Google Search & Results"}
